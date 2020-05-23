@@ -1,6 +1,6 @@
-sting="NITIN"
-s=sting.lower()
-x=sting.find("t")
-print (x)
-x=sting.rfind("t")
-print(x)
+# NITIN
+str_1 = "NITIN"
+def is_palindrome(s):
+    s = s.lower()
+    return s == s[::-1]
+print(is_palindrome(str_1))
